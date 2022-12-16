@@ -1,6 +1,7 @@
 import { initialPageLoad } from "./initial-page-load";
 import { menu } from "./menu.js";
 import { contact } from "./contact.js";
+import "./style.css";
 
 initialPageLoad();
 

@@ -1,3 +1,5 @@
+import restaurantImage from "./assets/inside-restaurant.jpg";
+
 export function initialPageLoad() {
 
     const contentDiv = document.querySelector("#content");
@@ -11,7 +13,7 @@ export function initialPageLoad() {
 
     const topImage = document.createElement("img");
     topImage.classList.add("image");
-    topImage.src = "../src/assets/inside-restaurant.jpg";
+    topImage.src = restaurantImage;
     topImage.alt = "Restaurant Image";
     contentDiv.appendChild(topImage);
 

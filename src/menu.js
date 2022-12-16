@@ -1,3 +1,7 @@
+import broccoliSoup from "./assets/Broccoli-Soup.webp";
+import sandwichGrilled from "./assets/Grilled-Sandwich.webp";
+import sandwichPhilly from "./assets/Philly-Steak-Sandwich.webp";
+
 export function menu() {
     
     const contentDiv = document.querySelector("#content");
@@ -6,7 +10,7 @@ export function menu() {
 
     const firstMeal = document.createElement("img");
     firstMeal.classList.add("menu-image");
-    firstMeal.src ="../src/assets/Broccoli-Soup.webp"
+    firstMeal.src = broccoliSoup;
     firstMeal.alt = "Cream Of Broccoli Soup";
     contentDiv.appendChild(firstMeal);
 
@@ -17,7 +21,7 @@ export function menu() {
 
     const secondMeal = document.createElement("img");
     secondMeal.classList.add("menu-image");
-    secondMeal.src = "../src/assets/Grilled-Sandwich.webp";
+    secondMeal.src = sandwichGrilled;
     secondMeal.alt = "Grilled Sandwich";
     contentDiv.appendChild(secondMeal);
 
@@ -28,7 +32,7 @@ export function menu() {
 
     const thirdMeal = document.createElement("img");
     thirdMeal.classList.add("menu-image");
-    thirdMeal.src = "../src/assets/Philly-Steak-Sandwich.webp";
+    thirdMeal.src = sandwichPhilly;
     thirdMeal.alt = "Philly Steak Sandwich";
     contentDiv.appendChild(thirdMeal);
 
